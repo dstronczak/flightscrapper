@@ -1,0 +1,19 @@
+{
+  "name": "FlightScrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node -e 'require(\"./index\").myHandler()'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "rm package.zip; zip -r package.zip ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.439.0",
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
