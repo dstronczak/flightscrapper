@@ -6,7 +6,8 @@
   "scripts": {
     "run": "node -e 'require(\"./index\").myHandler()'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "package": "rm package.zip; zip -r package.zip ."
+    "package": "rm package.zip; zip -X -r package.zip .",
+    "deploy": "aws lambda update-function-code --function-name FlightDealsNotification --zip-file fileb://package.zip"
   },
   "keywords": [],
   "author": "",

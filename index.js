@@ -132,9 +132,9 @@ var params = {
         Data: '[loty] Okazje ' + date
        }
       },
-    Source: 'dstronczak@gmail.com', /* required */
+    Source: 'mynotificationsbot@gmail.com', /* required */
     ReplyToAddresses: [
-       'dstronczak@gmail.com',
+       'mynotificationsbot@gmail.com',
       /* more items */
     ],
   };
